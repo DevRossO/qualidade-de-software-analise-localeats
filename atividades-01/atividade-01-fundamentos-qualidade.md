@@ -42,10 +42,7 @@ Sim! Nesse caso o sistema tem funcionalidades básicas funcionando perfeitamente
 
 | Integrante | Funcionalidade | O que foi realizado | O que foi observado | Evidência |
 |---|---|---|---|---|
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
+| Felipe Rosso | Editar pedido | [uso esperado e uso alternativo] O uso esperado era que eu pudesse editar um pedido que ainda está pendente, porém não é possível mexer neste pedido, adicionar mais itens, remover ou até mesmo cancelar | pedido estático | [ver evidência](pedido.png) |
 
 ---
 
