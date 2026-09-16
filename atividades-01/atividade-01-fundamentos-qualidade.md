@@ -52,20 +52,18 @@ Sim! Nesse caso o sistema tem funcionalidades básicas funcionando perfeitamente
 
 | Integrante | Requisito de Qualidade | Característica ou subcaracterística | Justificativa | Como avaliar |
 |---|---|---|---|---|
-| [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
-| [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
-| [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
-| [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
+| Felipe Rosso | O sistema deve adaptar a interface e os elementos de navegação (botões e menus) para telas móveis sem quebra de layout ou perda de usabilidade. | Usabilidade / Estética da interface de usuário (ou Adaptabilidade) | Dispositivos móveis representam grande parte dos acessos em apps de delivery; falhas de visualização impedem a navegação e causam abandono da plataforma. | Redimensionar a janela do navegador para resoluções mobile (ex.: 375px de largura) e observar se o layout quebra, se há rolagem horizontal indesejada ou botões desalinhados. |
+
 
 ---
 
 ## 5. Uso de inteligência artificial
 
 **Ferramenta utilizada:**  
-[Informar a ferramenta ou registrar “não utilizada”.]
+Gemini
 
 **Como foi utilizada:**  
-[Descrever brevemente.]
+Validar minha observação nas tarefas referente ao Localeats
 
 **Como as respostas foram verificadas:**  
-[Descrever brevemente.]
+⬆️
