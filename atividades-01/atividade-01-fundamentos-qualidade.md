@@ -2,8 +2,8 @@
 
 ## 1. Identificação
 
-**Turma:** [ADS 5º Semestre Noite]    
-**Data:** [25/08/2026]
+**Turma:** ADS 5º Semestre Noite    
+**Data:** 25/08/2026
 
 ### Integrantes
 
@@ -66,4 +66,4 @@ Gemini
 Validar minha observação nas tarefas referente ao Localeats
 
 **Como as respostas foram verificadas:**  
-⬆️
+Analisei manualmente o site para identificar se os requisitos explicitos e implicitos faziam sentido
