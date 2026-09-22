@@ -1,7 +1,5 @@
 # Atividade 3: Estratégia e Projeto de Testes do LocalEats
 
-> Substituam os campos entre colchetes pelas respostas da equipe e removam as instruções antes da entrega.
-
 ## 1. Identificação
 
 **Turma:** ADS 5º semestre noite    
@@ -33,7 +31,6 @@ Verificar se o fluxo de montagem e finalização de pedidos no LocalEats valida 
 |---|---|---|
 | Felipe Rosso | Fazer Pedido | Seleção de pratos no cardápio, limites de quantidade permitida de itens e geração do pedido no sistema. |
 
-> Acrescentem ou removam linhas conforme o número de integrantes.
 
 #### Funcionalidade não incluída
 
@@ -54,8 +51,7 @@ Verificar se o fluxo de montagem e finalização de pedidos no LocalEats valida 
 
 | Item | Definição |
 |---|---|
-| Ambiente necessário | URL: https://local-eats-unisenac.vercel.app/ 
-Navegador: Google Chrome / Mozilla Firefox (Desktop) Dispositivo: PC/Notebook Contas/Dados: Usuário autenticado na plataforma e restaurante com cardápio ativo.|
+| Ambiente necessário | URL: https://local-eats-unisenac.vercel.app/ |
 | Responsáveis pelo planejamento | Felipe Rosso |
 | Responsáveis pela especificação dos casos | Felipe Rosso |
 | Responsáveis pela futura execução | Felipe Rosso |
@@ -74,18 +70,12 @@ Navegador: Google Chrome / Mozilla Firefox (Desktop) Dispositivo: PC/Notebook Co
 
 ### 3.1 Análise dos riscos
 
-> Cada integrante deve analisar pelo menos um risco relacionado à funcionalidade escolhida. No trabalho individual, devem ser analisados dois riscos.
-
 | ID | Integrante | Funcionalidade | Risco | Consequência | Probabilidade | Impacto | Prioridade | Justificativa |
 |---|---|---|---|---|:---:|:---:|:---:|---|
 | R01 | Felipe Rosso | Fazer pedido | O sistema permitir a inclusão de quantidade nula (0) ou negativa de pratos no pedido. | O usuário gera um pedido sem itens ou corrompe o valor total da compra na base de dados. | Média | Alto | Alta | Pedidos sem itens geram falhas no backend e problemas operacionais com o restaurante. |
 | R02 | Felipe Rosso | Fazer pedido | Falha na associação de múltiplos pratos a um mesmo número de pedido (criação de IDs separados por item). | O cliente e o restaurante recebem múltiplos pedidos fragmentados para uma única compra, dobrando taxas ou gerando confusão na entrega. | Alta | Médio | Alta | Comportamento identificado em testes exploratórios que afeta a experiência do usuário e o fluxo de checkout. |
 
-> Acrescentem as linhas necessárias e mantenham identificadores únicos: R01, R02, R03 etc.
-
 ### 3.2 Aplicação das técnicas
-
-> Cada integrante deve aplicar pelo menos uma técnica adequada à funcionalidade e ao risco analisado. A equipe deve utilizar, no conjunto da atividade, pelo menos duas técnicas diferentes.
 
 #### Análise do integrante 1
 
@@ -131,15 +121,11 @@ A finalização do pedido depende da combinação entre a quantidade de itens no
 **Casos derivados:**
 CT03: Finalizar pedido contendo dois pratos diferentes do mesmo restaurante.
 
-> Repitam ou removam a seção de análise conforme o número de integrantes.
-
 ---
 
 ## 4. Tarefa 3: Casos de teste e rastreabilidade
 
 ### 4.1 Casos de teste
-
-> No trabalho individual, elabore três casos. No trabalho em equipe, cada integrante deve elaborar pelo menos dois casos relacionados à própria funcionalidade.
 
 ### CT01: Bloquear adição de quantidade zero (0) de itens
 
@@ -219,9 +205,6 @@ O sistema registra apenas 1 número de pedido (ID) contendo os dois pratos em se
 
 ---
 
-
-> Copiem o modelo acima e continuem a numeração para criar os demais casos: CT03, CT04, CT05 etc.
-
 ### 4.2 Matriz de rastreabilidade
 
 ### 3.2 Matriz de rastreabilidade
@@ -230,8 +213,6 @@ O sistema registra apenas 1 número de pedido (ID) contendo os dois pratos em se
 | :--- | :--- | :--- | :--- | :--- |
 | Felipe Rosso | Fazer pedido | **R01:** Permissão de quantidade zerada/inválida no pedido. | Análise de Valor Limite | CT01, CT02 |
 | Felipe Rosso | Fazer pedido | **R02:** Fragmentação de pedido ao incluir múltiplos pratos. | Tabela de Decisão | CT03 |
-
-> Acrescentem as linhas necessárias. Verifiquem se todos os riscos selecionados possuem casos de teste relacionados.
 
 ---
 

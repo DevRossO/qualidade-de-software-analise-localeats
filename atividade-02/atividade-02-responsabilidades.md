@@ -1,7 +1,5 @@
 # Atividade 2: Organização da Qualidade no LocalEats
 
-> Substituam os campos entre colchetes pelas respostas da equipe e removam as instruções antes da entrega.
-
 ## 1. Identificação
 
 **Turma:** ADS 5º semestre noite    
@@ -38,8 +36,6 @@ Não. Em metodologias ágeis, a qualidade é uma responsabilidade compartilhada 
 
 ## 3. Tarefa 2: Papéis e competências
 
-> Cada integrante deve ser responsável pela análise de pelo menos um papel. Acrescentem ou removam linhas conforme a composição da equipe e os papéis escolhidos.
-
 | Integrante | Papel analisado | Responsabilidades relacionadas à qualidade | Competências técnicas | Competências comportamentais |
 |---|---|---|---|---|
 | Felipe Rosso | Desenvolver(Dev) | Escrever código limpo, criar testes unitários/integrados, realizar code reviews e corrigir defeitos apontado | Git, Clean Code, Testes Unitários | Atenção aos detalhes, postura colaborativa, aceitação de feedback e orientação a soluções |
@@ -47,8 +43,6 @@ Não. Em metodologias ágeis, a qualidade é uma responsabilidade compartilhada 
 ---
 
 ## 4. Tarefa 3: Matriz de responsabilidades
-
-> Substituam “Papel 1”, “Papel 2”, “Papel 3” e “Papel 4” pelos papéis definidos pela equipe. Acrescentem ou removam colunas conforme necessário.
 
 Utilizem:
 
