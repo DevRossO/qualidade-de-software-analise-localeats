@@ -1,0 +1,11 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.14.3, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Felipe Rosso\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Felipe Rosso\qualidade-de-software-analise-localeats\atividade-04
+collecting ... collected 3 items
+
+tests/test_localeats.py::test_abrir_formulario_de_cadastro_no_localeats PASSED [ 33%]
+tests/test_regras_localeats.py::test_quantidade_de_itens_dentro_do_limite_e_valida PASSED [ 66%]
+tests/test_regras_localeats.py::test_quantidade_acima_do_limite_nao_e_valida PASSED [100%]
+
+============================== 3 passed in 1.98s ==============================
